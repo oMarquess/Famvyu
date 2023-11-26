@@ -43,10 +43,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth_ui',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'widget_tweaks',
+    'widget_tweaks'
 ]
 
 MIDDLEWARE = [
