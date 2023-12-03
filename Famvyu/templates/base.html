@@ -62,6 +62,7 @@
         <li><a href="services.html">Ratings</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
+        
         {% if user.is_authenticated %}
         <li><a class="get-a-quote" href="accounts/logout">{% user_display user %}</a></li>
         {% else %}
