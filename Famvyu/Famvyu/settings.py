@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'users',
     'movies',
+    'ratings'
     'allauth_ui',
     'allauth',
     'allauth.account',
