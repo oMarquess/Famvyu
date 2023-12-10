@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <ul>
+        {% for x in movie %}
+        <div class = 'movie_display'>
+            <p>Name: {{ x.title }}</p>
+            <p>Release Date: {{ x.year }}</p>
+            <p>Duration: {{ x.duration }}</p>
+            <p>Rating: {{ x.star_rating }}</p>
+            <br>
+        </div>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
